@@ -1,6 +1,6 @@
 # sell
 
-> A Vue.js project
+> sell webapp
 
 ## Build Setup
 

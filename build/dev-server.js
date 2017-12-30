@@ -22,7 +22,6 @@ var proxyTable = config.dev.proxyTable
 
 var app = express()
 
-
 var appData = require('../data.json');
 var seller = appData.seller;
 var goods = appData.goods;
@@ -49,6 +48,7 @@ apiRoutes.get('/ratings',function(res,res){
   })
 });
 app.use('/api',apiRoutes);//请求数据
+
 
 var compiler = webpack(webpackConfig)
 
